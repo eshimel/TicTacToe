@@ -1,0 +1,15 @@
+$(document).ready();
+
+$("#table").on("click", function(){
+        var ths = $(this);
+        if(ths.hasClass('he-man')){
+            ths.css("background-image", "url(he-man.png)")
+               .animate({width: 150}, 150)
+               .removeClass('bg-image-left');
+        } else if(ths.hasClass('skelator')) {
+
+            ths.css("background-image", "url(images/skelator.jpg)");
+               .animate({width: 25}, 350);
+               .addClass('bg-image-left');
+        }
+    });

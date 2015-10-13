@@ -1,0 +1,116 @@
+body {
+align: center;
+text-align: center;
+font-family: Verdana;
+font-size: 45px;
+background-color: #383830;
+margin-top: 0;
+}
+
+h1 {
+  background-color: #2d5867;
+  color: #e6e9f0;
+  border-bottom-width: 20px;
+  padding-top: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: #2c003a; ;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+  padding: 5x;
+  color:#e6e9f0;
+
+}
+
+#nav {
+  float: left;
+  max-width: 350px;
+  height: 580px;
+  padding: 10px;
+  margin-left: 100px;
+   border-top: 5px solid #2d5867;
+    border-bottom: 15px solid #2c003a;
+    border-left: 15px solid red;
+    border-right: 10px solid #2d5867;
+    border-radius:10px;
+}
+#x {
+  position: center;
+  width: 180px;
+  height: 180px;
+  margin-left: 60px;
+  background: url(images/He-Man-Battle-Cat.jpg);
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  border: 15px solid #2c003a;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#o {
+   float: left;
+  width: 180px;
+  height: 180px;
+  margin-top: 15px;
+  margin-left: 60px;
+  border: 10px solid red;
+  border-radius: 5px;
+   background: url(images/skelator.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+
+
+#container {
+position: relative;
+
+border-radius: 10px;
+    border: 15px solid #e6e9f0;
+    max-width: 800px;
+    height: 800px;
+    margin: 20px 20px 20px 800px;
+    padding: 20px;
+    float: clear;
+
+}
+table {
+  background-image: url("images/grayskull.jpg");
+background-position: center;
+  border-radius: 15px;
+border: 15px solid #2c003a;
+
+
+position: absolute;
+margin-left: 50px;
+
+margin-top: 50px;
+padding: 10px;
+}
+.square{
+    width:200px;
+    height:200px;
+    border-radius: 5px;
+}
+
+.a{
+    border-left: 5px solid #2d5867;
+    border-right: 5px solid #2d5867;
+    border-top: 10px solid #1e2e4d;
+    border-bottom: 10px solid #2c003a;
+}
+
+.b{
+
+    border-top: 5px solid #2d5867;
+    border-bottom: 10px solid #2c003a;
+    border-left: 5px solid red;
+    border-right: 10px solid #2d5867;
+}
+.a_b {
+  border-top: 5px solid #2d5867;
+  border-bottom: 10px solid #2d5867;
+  border-left: 10px solid #2c003a;
+    border-right: 5px solid #2d5867;
+}
