@@ -2,12 +2,14 @@ body {
 align: center;
 text-align: center;
 font-family: Verdana;
-font-size: 45px;
+font-size: 25px;
 background-color: #383830;
 margin-top: 0;
+width: 100%;
 }
 
 h1 {
+  position: static;
   background-color: #2d5867;
   color: #e6e9f0;
   border-bottom-width: 20px;
@@ -16,81 +18,88 @@ h1 {
   border-bottom-color: #2c003a; ;
 }
 h2 {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   padding: 5x;
   color:#e6e9f0;
+  align: center;
 
 }
 
 #nav {
   float: left;
-  max-width: 350px;
-  height: 580px;
+  max-width: 200px;
+  height: 400px;
+  margin-left: 30px;
   padding: 10px;
-  margin-left: 100px;
+
    border-top: 5px solid #2d5867;
     border-bottom: 15px solid #2c003a;
     border-left: 15px solid red;
     border-right: 10px solid #2d5867;
     border-radius:10px;
+    position: relative;
 }
 #x {
-  position: center;
-  width: 180px;
-  height: 180px;
-  margin-left: 60px;
-  background: url(images/He-Man-Battle-Cat.jpg);
-  background-size: 200px 200px;
+  clear: left;
+  width: 90px;
+  height: 90px;
+  margin-left: 45px;
+  background: url(Images/He-Man-Battle-Cat.jpg);
+  background-size: 110px 130px;
   background-repeat: no-repeat;
-  border: 15px solid #2c003a;
+  border: 10px solid #2c003a;
   border-radius: 5px;
   padding: 5px;
 }
 
 #o {
    float: left;
-  width: 180px;
-  height: 180px;
+   clear: left;
+   position: absolute;
+  width: 90px;
+  height: 90px;
+  margin-left: 45px;
   margin-top: 15px;
-  margin-left: 60px;
+
   border: 10px solid red;
   border-radius: 5px;
-   background: url(images/skelator.jpg);
-    background-size: 200px 200px;
+   background: url(Images/skelator.jpg);
+    background-size: 120px 120px;
     background-repeat: no-repeat;
     padding: 5px;
 }
 
 
 #container {
-position: relative;
+postion: relative;
 
 border-radius: 10px;
     border: 15px solid #e6e9f0;
-    max-width: 800px;
-    height: 800px;
-    margin: 20px 20px 20px 800px;
+    max-width: 400px;
+    height: 400px;
+    margin: 20px 20px 20px 400px;
     padding: 20px;
     float: clear;
 
 }
 table {
-  background-image: url("images/grayskull.jpg");
+  background-image: url("Images/grayskull.jpg");
 background-position: center;
+background-size: 400px 400px;
   border-radius: 15px;
 border: 15px solid #2c003a;
 
 
 position: absolute;
-margin-left: 50px;
+margin-right: 60px;
 
-margin-top: 50px;
+margin-bottom:40px;
 padding: 10px;
 }
 .square{
-    width:200px;
-    height:200px;
+    width:100px;
+    height:100px;
     border-radius: 5px;
 }
 
