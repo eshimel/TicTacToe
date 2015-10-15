@@ -25,6 +25,15 @@ h2 {
   align: center;
 
 }
+h3 {
+  font-size: 20px;
+  text-align: center;
+  padding: 5x;
+  color:#e6e9f0;
+  align: center;
+  float: left;
+
+}
 
 #nav {
   float: left;
@@ -63,7 +72,7 @@ clear: left;
   width: 90px;
   height: 90px;
   margin-left: 45px;
-  margin-top: 30px;
+  margin-top: 70px;
 
   border: 10px solid red;
   border-radius: 5px;

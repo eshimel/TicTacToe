@@ -7,7 +7,7 @@
     <title>Edie's Tic Tac Toe</title>
     </HEAD>
         <body>
-
+          <audio id="hm" src="Styles/Images/I have the Power 1.mp3" preload="auto"></audio>
           <div id="header">
               <h1>Tic Tac Toe</h1>
                 </div>
@@ -16,7 +16,7 @@
               <h2>Click The Board to Play</h2>
                 <div id="He-man"></div>
                 <div id="Skelator"></div>
-
+                <h3>Refresh the Page to Play Again</h3>
 
 
                 </div>
@@ -47,6 +47,12 @@
       <script src="Scripts/ttt.js">
     </script>
 
+
+if(x > 10)
+{
+    document.getElementById('xyz').play();
+    alert("Thank you!");
+}
 
   </body>
 
