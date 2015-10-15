@@ -72,9 +72,8 @@ h2 {
 
 
 #container {
-postion: relative;
-
-border-radius: 10px;
+  position: static;
+  border-radius: 10px;
     border: 15px solid #e6e9f0;
     max-width: 400px;
     height: 400px;
@@ -89,13 +88,11 @@ background-position: center;
 background-size: 400px 400px;
   border-radius: 15px;
 border: 15px solid #2c003a;
-
-
 position: absolute;
 margin-right: 60px;
-
 margin-bottom:40px;
 padding: 10px;
+
 }
 .square{
     width:100px;
