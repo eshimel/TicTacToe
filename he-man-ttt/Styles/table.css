@@ -1,7 +1,7 @@
 body {
 align: center;
 text-align: center;
-font-family: Verdana;
+font-family: Copperplate;
 font-size: 25px;
 background-color: #383830;
 margin-top: 0;
@@ -40,27 +40,30 @@ h2 {
    border-radius:10px;
    position: relative;
 }
-#button-X {
+#He-man{
+
+
   clear: left;
   width: 90px;
   height: 90px;
   margin-left: 45px;
   background: url(Images/He-Man-Battle-Cat.jpg);
-  background-size: 110px 130px;
+  background-size: 100px 110px;
   background-repeat: no-repeat;
   border: 10px solid #2c003a;
   border-radius: 5px;
   padding: 5px;
 }
 
-#button-O {
+#Skelator {
+   display: hidden;
    float: left;
-   clear: left;
+clear: left;
    position: absolute;
   width: 90px;
   height: 90px;
   margin-left: 45px;
-  margin-top: 15px;
+  margin-top: 30px;
 
   border: 10px solid red;
   border-radius: 5px;
@@ -88,8 +91,8 @@ background-position: center;
 background-size: 400px 400px;
   border-radius: 15px;
 border: 15px solid #2c003a;
-position: absolute;
-margin-right: 60px;
+position: static;
+
 margin-bottom:40px;
 padding: 10px;
 

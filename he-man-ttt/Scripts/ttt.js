@@ -38,12 +38,6 @@ alert ("the winner is " + winner);
     console.log(this);
 });
 
-
-
-
-
-
-
 var getWinner= function getWinner(){
 //rows
   if(square[0] === players[player] && square[1] === players[player] && square[2] === players[player]||
