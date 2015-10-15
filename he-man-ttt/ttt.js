@@ -50,10 +50,10 @@ console.log("id is ", squareClickedId);
 console.log(this);
 
  });
-});
+}
 
 
-Function cells(key) {
+/* Function cells(key) {
     switch(key) {
         case '1': return null;
         case '2': return null;
@@ -98,6 +98,5 @@ function allThree(player, cell_one, cell_two, cell_three) {
     return (cell_one === player) && (cell_two === player) && (cell_three === player);
 }
 
-
-
+*/
 
