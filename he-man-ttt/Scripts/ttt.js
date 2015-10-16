@@ -1,3 +1,6 @@
+
+//token "4c90fccb73603c577a861fdcaacd75e8"  id 1476
+
 //when the document has been processed by browser,
 //  the jQuery Ready method will invoke the function passed to it
 $(document).ready(function(){
@@ -22,6 +25,16 @@ var squareClickedId = $target.data('square');
   if(squareClickedId !== undefined) {
     console.log("id is ", squareClickedId);
 
+    var cellData = {
+      game: {
+        cell: {
+          index: squareClickedId,
+          value: players[player]
+        }
+      }
+    };
+
+    tttapi.markCell(gameID, cellData, gameToken, callback);
     square[squareClickedId] = players[player];
     $target.html(snippets[player]);
 
@@ -30,8 +43,7 @@ if(winner) {
 alert ("the winner is " + winner);
 
 }
-
-    switchPlayer();
+      switchPlayer();
 
     console.log(square);
 }
